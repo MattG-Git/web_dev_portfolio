@@ -5,43 +5,18 @@
 
 
 body{
-    font-family: 'Exo', sans-serif;
+    background: #464661;
+}
+
+nav {
+    background-color: rgb(61, 60, 60);
+    height: 3rem;
+
 }
 
 .clouds {
-    background-color: #464661;
-}
-
-.context {
+    max-height: 600px;
     width: 100%;
-    position: absolute;
-    top:50vh;
-    
-}
-
-.context h1{
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-}
-
-
-.area{
-    background: #464661;  
-    background: -webkit-linear;  
-    width: 100%;
-    height:100vh;
-    
-   
-}
-
-.rain-drops{
-    position: absolute;
-    top: 10;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
 }
 
 .rain-drops li{
@@ -49,17 +24,24 @@ body{
     display: block;
     list-style: none;
     animation: animate 25s linear infinite;
-    bottom: 500px;
+    bottom: 770px;
     
 }
 
+
+#name, #role {
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
 
 #rain1{
     left: 25%;
     animation-delay: 0s;
 }
 
-#size1{
+#size1, #size2, #size3, #size4, #size5, #size6, #size7, #size8, #size9, #size10{
    height: 5rem;
    width: 5rem;
 }
@@ -69,6 +51,7 @@ body{
     animation-delay: 2s;
     animation-duration: 12s;
 }
+
 
 #rain3{
     left: 70%;
@@ -86,21 +69,21 @@ body{
     animation-delay: 0s;
 }
 
-.circles li:nth-child(6){
+#rain6{
     left: 75%;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
 }
 
-.circles li:nth-child(7){
+#rain7{
     left: 35%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
 }
 
-.circles li:nth-child(8){
+#rain8{
     left: 50%;
     width: 25px;
     height: 25px;
@@ -108,7 +91,7 @@ body{
     animation-duration: 45s;
 }
 
-.circles li:nth-child(9){
+#rain9{
     left: 20%;
     width: 15px;
     height: 15px;
@@ -116,7 +99,7 @@ body{
     animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+#rain10{
     left: 85%;
     width: 150px;
     height: 150px;
@@ -124,7 +107,13 @@ body{
     animation-duration: 11s;
 }
 
-
+#rain10{
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 6s;
+    animation-duration: 11s;
+}
 
 @keyframes animate {
 
@@ -135,7 +124,7 @@ body{
     }
 
     100%{
-        transform: translateY(750px);
+        transform: translateY(100vh);
         opacity: 0;
         border-radius: 50%;
     }
