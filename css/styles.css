@@ -6,6 +6,7 @@
 
 body{
     background: #464661;
+    max-height: 100vh;
 }
 
 nav {
@@ -13,9 +14,10 @@ nav {
     height: 3rem;
 
 }
+  
 
 .space {
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
 
 .rain-drops li{
@@ -33,7 +35,7 @@ nav {
     font-family: 'Righteous', cursive;
     color: white;
     text-align: center;
-    font-size: 64px;
+    font-size: 3em;
 }
 
 
@@ -99,7 +101,7 @@ nav {
 }
 
 #rain11{
-    left: 95%;
+    left: 80%;
     animation-delay: 6s;
     animation-duration: 11s;
 }
@@ -107,15 +109,32 @@ nav {
 @keyframes animate {
 
     0%{
-        transform: translateY(0) rotate(0deg);
+        transform: translateY(0);
         opacity: 1;
-        border-radius: 0;
     }
 
     100%{
-        transform: translateY(85vh);
+        transform: translateY(100vh);
         opacity: 0;
-        border-radius: 50%;
     }
 
 }
+
+#name {
+    font-size: 4em;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    animation-duration: 3s;
+  }
+
+@keyframes glow {
+    from {
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #e6d700, 0 0 30px #e6d700, 0 0 40px #e6d700, 0 0 50px #e6d700, 0 0 60px #e6d700, 0 0 70px #e6d700;
+    }
+  }
