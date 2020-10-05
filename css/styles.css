@@ -14,13 +14,16 @@ nav {
 
 }
 
+.space {
+    margin-bottom: 400px;
+}
 
 .rain-drops li{
     position: absolute;
     display: block;
     list-style: none;
     animation: animate 5s linear infinite;
-    bottom: 550px;
+    bottom: 600px;
     z-index: -2;
     
 }
@@ -30,7 +33,7 @@ nav {
     font-family: 'Righteous', cursive;
     color: white;
     text-align: center;
-    font-size: 48px;
+    font-size: 64px;
 }
 
 
