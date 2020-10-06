@@ -28,7 +28,7 @@ nav {
     display: block;
     list-style: none;
     animation: animate 5s linear infinite;
-    bottom: 725px;
+    bottom: 790px;
     z-index: -2;
     
 }
@@ -118,7 +118,7 @@ nav {
 
     100%{
         transform: translateY(100vh);
-        opacity: 0;
+        opacity: 0.25;
     }
 
 }

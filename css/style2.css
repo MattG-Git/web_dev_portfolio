@@ -20,13 +20,44 @@ h1 {
         font-size: 3em;
 }
 
-.text{
+h2 {
+    font-family: 'Righteous', cursive;
     color: white;
 }
 
+.c_e {
+    margin-top: 5rem;
+}
+
+.education {
+    color: rgb(190, 186, 186);
+    font-size: 20px;
+}
+
+.dates {
+    color: gray;
+    
+}
+
+.skills {
+    color: rgb(190, 186, 186);
+    font-size: 20px;
+}
+
+.btn {
+    color: gray;
+    font-size: 16px;
+}
+
+.text{
+    color: white;
+    margin-top: 5em;
+}
+
 .rock {
-    height:350px;
-    width:200px;
+    margin-top:5em;
+    height:330px;
+    width:350px;
 }
 
 .rain-drops li{
@@ -34,7 +65,7 @@ h1 {
     display: block;
     list-style: none;
     animation: animate 5s linear infinite;
-    bottom: 650px;
+    bottom: 900px;
     z-index: -2;
 }
 
