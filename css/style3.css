@@ -5,7 +5,6 @@
 
 body{
     background: #464661;
-    max-height: 100vh;
 }
 
 nav {
@@ -25,24 +24,6 @@ h2 {
     color: white;
 }
 
-.c_e {
-    margin-top: 5rem;
-}
-
-.education {
-    color: rgb(190, 186, 186);
-    font-size: 20px;
-}
-
-.dates {
-    color: gray;
-    
-}
-
-.skills {
-    color: rgb(190, 186, 186);
-    font-size: 20px;
-}
 
 .btn {
     color: gray;
