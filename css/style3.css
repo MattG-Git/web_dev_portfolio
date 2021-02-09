@@ -65,7 +65,7 @@ h2 {
     display: block;
     list-style: none;
     animation: animate 5s linear infinite;
-    bottom: 600px;
+    bottom: 1200px;
     z-index: -2;
 }
 
