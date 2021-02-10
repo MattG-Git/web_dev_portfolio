@@ -28,7 +28,7 @@ nav {
     display: block;
     list-style: none;
     animation: animate 5s linear infinite;
-    bottom: 790px;
+    bottom: 720px;
     z-index: -2;
     
 }
